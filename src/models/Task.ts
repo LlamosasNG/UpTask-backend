@@ -4,6 +4,7 @@ export interface ITask extends Document {
   name: string;
   description: string;
   project: Types.ObjectId;
+  status: TaskStatus;
 }
 
 const taskStatus = {
